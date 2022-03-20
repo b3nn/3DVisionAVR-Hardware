@@ -1,9 +1,9 @@
 # 3DVisionAVR Firmware
-Flashing the Arduino Pro Micro with the [3DVisionAVR](https://github.com/lukis101/3DVisionAVR) code does require a few tools and steps. In order to help others with that process, here are the process that worked for me on Windows 10.
+Flashing the Arduino Pro Micro with the [3DVisionAVR](https://github.com/lukis101/3DVisionAVR) code does require a few tools and steps. In order to help others with that process, here is what worked for me on Windows 10.
 
 Download and install [Arduino IDE](https://www.arduino.cc/en/software) and [Microchip Studio](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio#Downloads) for AVR (at the time, my versions were Arduino 1.8.10 and Studio v7.0.2542). 
 
-To download lukis101's code from Github. Make sure to include the lufa submodule. I recommend using git command for this:
+Download lukis101's code from Github and make sure to include the lufa submodule. I recommend using git command for this:
 
     git clone --recurse-submodules https://github.com/lukis101/3DVisionAVR.git
 
@@ -40,3 +40,4 @@ If everything worked correctly, Device Manager will now have under "Universal Se
 
 ![3D Fix Manager](images/3D-Fix-Manager-Final.png)
 
+Now launch your game via 3D Fix Manager like normal. 
